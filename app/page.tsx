@@ -21,11 +21,11 @@ export default function LoginPage() {
   });
 
   const passwordChecks = useMemo(() => [
-    { label: 'At least 8 characters',        met: formData.password.length >= 8 },
-    { label: 'One uppercase letter (A–Z)',    met: /[A-Z]/.test(formData.password) },
-    { label: 'One lowercase letter (a–z)',    met: /[a-z]/.test(formData.password) },
-    { label: 'One number (0–9)',              met: /\d/.test(formData.password) },
-    { label: 'One symbol (@, #, or $)',       met: /[@#$]/.test(formData.password) },
+    { label: 'At least 8 characters', met: formData.password.length >= 8 },
+    { label: 'One uppercase letter (A–Z)', met: /[A-Z]/.test(formData.password) },
+    { label: 'One lowercase letter (a–z)', met: /[a-z]/.test(formData.password) },
+    { label: 'One number (0–9)', met: /\d/.test(formData.password) },
+    { label: 'One symbol (@, #, or $)', met: /[@#$]/.test(formData.password) },
   ], [formData.password]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -105,7 +105,7 @@ export default function LoginPage() {
                 {isLogin ? <Lock size={24} /> : <UserPlus size={24} />}
               </div>
               <h2 className="text-2xl font-bold text-slate-800 mb-1">
-                {isLogin ? "Sign In" : "Crete Account"}
+                {isLogin ? "Sign In" : "Crete Account samyak"}
               </h2>
               <p className="text-slate-500 text-xs">
                 {isLogin ? "Welcome to Sulzer Service Portal" : "Join the Asset Management System"}
