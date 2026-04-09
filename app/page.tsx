@@ -105,7 +105,7 @@ export default function LoginPage() {
                 {isLogin ? <Lock size={24} /> : <UserPlus size={24} />}
               </div>
               <h2 className="text-2xl font-bold text-slate-800 mb-1">
-                {isLogin ? "Sign In" : "Crete Account samyak"}
+                {isLogin ? "Sign In" : "Crete Account"}
               </h2>
               <p className="text-slate-500 text-xs">
                 {isLogin ? "Welcome to Sulzer Service Portal" : "Join the Asset Management System"}
@@ -186,7 +186,7 @@ export default function LoginPage() {
 
                     {/* Employee Name */}
                     <div className="space-y-1">
-                      <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Employee Name</label>
+                      <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Employee Name SSSSS</label>
                       <div className="relative">
                         <User className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={16} />
                         <input
