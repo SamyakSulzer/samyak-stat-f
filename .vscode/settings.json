@@ -3,6 +3,6 @@
         "node_modules{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/22c90a0e-7530-48de-b85c-24de500bd5b8/resourceGroups/samyak-ams/providers/Microsoft.Web/sites/samyak-azure-ui",
+    "appService.defaultWebAppToDeploy": "",
     "appService.deploySubpath": "."
 }
